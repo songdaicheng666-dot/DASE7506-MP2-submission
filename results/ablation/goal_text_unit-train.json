@@ -1,0 +1,33 @@
+{
+  "mode": "text_unit",
+  "vocabulary_size": 4096,
+  "seeds": [
+    {
+      "seed": 17,
+      "full_accuracy": 92.23057627677917,
+      "hard_accuracy": 82.5352132320404,
+      "hard_loss": 0.38632792234420776,
+      "best_epoch": 10
+    },
+    {
+      "seed": 23,
+      "full_accuracy": 91.85463786125183,
+      "hard_accuracy": 81.69013857841492,
+      "hard_loss": 0.39731815457344055,
+      "best_epoch": 7
+    },
+    {
+      "seed": 42,
+      "full_accuracy": 92.35588908195496,
+      "hard_accuracy": 82.81689882278442,
+      "hard_loss": 0.392363041639328,
+      "best_epoch": 11
+    }
+  ],
+  "ensemble_metrics": {
+    "full_accuracy": 92.48120188713074,
+    "hard_accuracy": 83.09859037399292,
+    "hard_loss": 0.3838883638381958
+  },
+  "parameter_count": 79169
+}

@@ -1,0 +1,1 @@
+The JSON files in this directory are unedited outputs from `code/train_scorers.py`. They record each seed's chosen epoch, validation metrics, model size, and training duration. The submitted model's corresponding JSON is `code/checkpoints/deepsets_answer.json`.

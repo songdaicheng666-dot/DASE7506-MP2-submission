@@ -1,0 +1,47 @@
+{
+  "context_mode": "attention",
+  "relation_mode": "none",
+  "seeds": [
+    17,
+    23,
+    42
+  ],
+  "train_questions": 4755,
+  "informative_train_questions": 2513,
+  "validation_questions": 798,
+  "hard_validation_questions": 355,
+  "parameter_count": 95235,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.0,
+  "selection_metric": "hard_loss",
+  "seed_metrics": [
+    {
+      "seed": 17,
+      "full_accuracy": 92.60651469230652,
+      "hard_accuracy": 83.38028192520142,
+      "hard_loss": 0.3823908865451813,
+      "best_epoch": 5
+    },
+    {
+      "seed": 23,
+      "full_accuracy": 91.35338068008423,
+      "hard_accuracy": 80.56337833404541,
+      "hard_loss": 0.3988274335861206,
+      "best_epoch": 8
+    },
+    {
+      "seed": 42,
+      "full_accuracy": 92.1052634716034,
+      "hard_accuracy": 82.25352168083191,
+      "hard_loss": 0.3903392553329468,
+      "best_epoch": 6
+    }
+  ],
+  "ensemble_metrics": {
+    "full_accuracy": 91.72932505607605,
+    "hard_accuracy": 81.4084529876709,
+    "hard_loss": 0.3763352930545807
+  },
+  "training_seconds": 7.26230028100008
+}
