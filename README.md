@@ -2,7 +2,7 @@
 
 This repository contains the complete course bank and official evaluation tools, plus our completed candidate selector and research evidence. The frozen submitted method is a three-seed **DeepSets-answer** ensemble. Its official test result is **385/467 = 82.44111349036403%**.
 
-- [English report (PDF)](report/report.pdf) and [editable report source](report/report.html)
+- [English report (PDF)](report/report.pdf) and [editable Markdown source](report/report.md)
 - [Exact installation, training, and evaluation commands](code/README.md)
 - [Submitted checkpoint](code/checkpoints/deepsets_answer.pt) and [training summary](code/checkpoints/deepsets_answer.json)
 - [Official result JSON and complete experiment record](results/README.md)

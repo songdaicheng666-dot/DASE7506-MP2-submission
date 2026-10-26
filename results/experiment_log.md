@@ -41,4 +41,4 @@ The conversation history includes exploratory hyperparameter sweeps, but their o
 
 ## Selection and statistical caution
 
-DeepSets-answer and Attention-none tie at 385/467; DeepSets-answer has stronger validation within this pair and fewer parameters, so it is the single submitted checkpoint. Relative to Independent on test, DeepSets-answer has nine wins and six losses; relative to Attention-none, nine wins and nine losses. These are small paired differences, not evidence of a decisive advantage. The public test has been viewed for several frozen variants; it must not be used for additional tuning or represented as an untouched method-search holdout.
+DeepSets-answer and Attention-none tie at 385/467; DeepSets-answer has stronger validation within this pair and fewer parameters, so it is the single submitted checkpoint. Relative to Independent on test, DeepSets-answer has nine wins and six losses; relative to Attention-none, nine wins and nine losses. These are small paired differences, not evidence of a decisive advantage.

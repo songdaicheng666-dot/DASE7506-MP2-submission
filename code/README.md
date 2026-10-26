@@ -2,7 +2,7 @@
 
 Start with the [Project Guide](../guide/GUIDE.md) for the task description, example, research questions, assessment, deadline and submission rules.
 
-This fork contains a completed candidate selector in `submission.py`, its training program in `train_scorers.py`, and the frozen submitted asset at `checkpoints/deepsets_answer.pt`. The submitted model is the three-seed **DeepSets-answer** ensemble. It selects 385 of 467 test questions correctly (82.441113%). The eight-method comparison and discarded ablations are documented in [`../report/report.pdf`](../report/report.pdf) and [`../results/`](../results/). Run the commands below from **`code/`**.
+This fork contains a completed candidate selector in `submission.py`, its training program in `train_scorers.py`, and the frozen submitted asset at `checkpoints/deepsets_answer.pt`. The submitted model is the three-seed **DeepSets-answer** ensemble. It selects 385 of 467 test questions correctly (82.441113%). The eight-method comparison is documented in the [`PDF report`](../report/report.pdf), with its [editable Markdown source](../report/report.md) and evaluation records in [`../results/`](../results/). Run the commands below from **`code/`**.
 
 ## 1. Install and check the data
 
